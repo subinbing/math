@@ -1,197 +1,142 @@
-01 함수와 그래프 
+<img width="203" alt="image" src="https://user-images.githubusercontent.com/87634136/178107468-dcc76505-da0d-4a11-9480-c29df6e38c34.png">
 
-​
+
+
+01 함수와 그래프 
 
 >> 함수의 의미
 
 : y가 x에 의해 한 가지로 정해질 때 'y는 x의 함수이다' 라 말하고, 
 
-$y\ =\ f\left(x\right)$y = f(x)​
+<img width="62" alt="image" src="https://user-images.githubusercontent.com/87634136/178107491-f621fc9b-d92d-4619-9943-1b59850e419e.png">
+
 이와 같은 식으로 나타낸다.
 
-​
 
-​
 
 02 평균변화율
-
-​
 
 >> 평균 변화율의 정의
 
 : y = f(x)에서 x가 a에서 b까지 변할 때 
 
-$평균변화율=\ \frac{f\left(b\right)\ -\ f\left(a\right)}{b\ -\ a}=\ 기울기$평균변화율= 
-f(b) − f(a)
-b − a​= 기울기​
-​
+<img width="194" alt="image" src="https://user-images.githubusercontent.com/87634136/178107502-e7d8928b-352b-4569-a44b-63a13a90b8e2.png">
+
+
 
 03 등차수열의 합과 등비수열의 합
 
-​
-
 >> 등차수열의 일반항
 
-$\combi{a}_n\ =\ \combi{a}_1\ +\ \left(n\ -\ 1\right)d\ $an​ = a1​ + (n − 1)d ​
-$\left(단,\ \combi{a}_1\ :\ 초항,\ d\ :\ 공차\right)$(단, a1​ : 초항, d : 공차)​
+<img width="118" alt="image" src="https://user-images.githubusercontent.com/87634136/178107530-5459c7b9-c1d2-4936-a4bc-1d497c30d559.png">
+
 >> 등차수열의 합
 
-$S_n\ =\ \frac{n\ \left(\combi{a}_1\ +\ \combi{a}_n\right)}{2}\ \ \ \ \ \left[\frac{항의\ 개수\ \times \ \left(초항\ +\ 끝항\right)}{2}\right]$Sn​ = 
-n (a1​ + an​)
-2​     [
-항의 개수 × (초항 + 끝항)
-2​]​
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/87634136/178107542-e6a1a33e-2476-48e2-a7dd-78e78cdb5a84.png">
+
 >> 등비수열의 일반항
 
-$\combi{a}_n\ =\ \combi{a}_1\combi{r}^{n-1}$an​ = a1​rn−1​
-$\left(단,\ \combi{a}_1\ :\ 초항,\ r\ :\ 공비\right)$(단, a1​ : 초항, r : 공비)​
+<img width="125" alt="image" src="https://user-images.githubusercontent.com/87634136/178107553-32538905-0de4-454f-b390-c6446370d3cc.png">
+
 >> 등비수열의 합
 
-$S_n\ =\ \frac{\combi{a}_1\left(1-\combi{r}^n\right)}{1\ -\ r}\ \left(단,\ r\ne 1\right)\ \ \ \ \ \ \left[\frac{초항\left(1\ -\ \combi{공비}^{항의개수}\right)}{1-\ 공비}\right]$Sn​ = 
-a1​(1−rn)
-1 − r​ (단, r≠1)      [
-초항(1 − 공비항의개수)
-1− 공비​]​
-​
+<img width="271" alt="image" src="https://user-images.githubusercontent.com/87634136/178107560-3747933c-37ef-45cc-9018-6235fb349cdf.png">
 
-​
+
 
 04 수열의 극한
 
-​
-
 >> 수열의 극한
 
-$:\ n이한없이커지면수열\ \left\{\combi{a}_n\right\}이\ 어떤\ 정수\ p에\ 가까워진다는\ 것을\ 다음과\ 같이\ 표현한다.$: n이한없이커지면수열 {an​}이 어떤 정수 p에 가까워진다는 것을 다음과 같이 표현한다.​
-$\lim _{\combi{n}\to \combi{\infty }}^{ }\combi{\combi{a}_n\ =\ p}$lim
-n→∞
-an​ = p​
-​
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/87634136/178107573-4728bd29-ceac-4392-a110-f005dd7ad1bd.png">
+
+
 
 05 함수의 극한 
 
-​
-
 >> 함수의 극한 
 
-$x가\ a에\ 한없이\ 가까워지면\ 함수\ f\left(x\right)값은\ 한없이\ p에\ 가까워진다는\ 것을\ 다음과\ 같이\ 표현합니다.$x가 a에 한없이 가까워지면 함수 f(x)값은 한없이 p에 가까워진다는 것을 다음과 같이 표현합니다.​
-$\lim _{\combi{x}\to \combi{\alpha }}^{ }\combi{f\left(x\right)\ =\ p}$lim
-x→α
-f(x) = p​
+<img width="442" alt="image" src="https://user-images.githubusercontent.com/87634136/178107596-e51509e9-1d60-4642-92b7-54dbf8a8de54.png">
+
 >> 0/0 형태의 극한을 구하는 방법
 
 1. 분모를 0으로 만드는 성분을 없앤다(대부분은 약분).
 
 2. 가까워지는 값을 대입한다.
 
-​
 
-​
 
 06 미분 계수는 접선의 기울기
 
-​
-
 >> 미분계수
 
-$f"\left(a\right)\ =\ \lim _{\combi{b}\to \combi{a}}^{ }\combi{\frac{f\left(b\right)\ -\ f\left(a\right)}{b-a}}$f′(a) = lim
-b→a
-f(b) − f(a)
-b−a​​
+<img width="133" alt="image" src="https://user-images.githubusercontent.com/87634136/178107613-3d17f283-c356-4c22-b75f-431acf2813da.png">
+
 b - a = h라 하면 b = a + h가 되고 b -> a일때 h -> 0이므로 다음과 같이 표현할 수도 있다.
 
-$f"\left(a\right)\ =\ \lim _{\combi{h}\to \combi{0}}^{ }\combi{\frac{f\left(a\ +\ h\right)\ -\ f\left(a\right)}{h}}$f′(a) = lim
-h→0
-f(a + h) − f(a)
-h​​
-$f"\left(a\right)는\ \textcolor{#ff5f45}{x=a에서의\ 접선의\ 기울기}를\ 나타낸다.$f′(a)는 x=a에서의 접선의 기울기를 나타낸다.​
-​
+<img width="237" alt="image" src="https://user-images.githubusercontent.com/87634136/178107627-65eff45c-d910-442b-836b-325a03e1c76f.png">
+
+
 
 08 순열과 조합 그리고 2항정리
 
-​
-
 >> 순열
 
-$:\ 서로\ 다른\ n개에서\ r개를\ 뽑는\ 순열의\ 수는\ 다음과\ 같다.$: 서로 다른 n개에서 r개를 뽑는 순열의 수는 다음과 같다.​
-$\combi{\ }_n\combi{P}_r\ =\ n\ \times \left(n-1\right)\ \times \left(n-2\right)\ \times ...\ \times \left(n-r+1\right)$ n​Pr​ = n ×(n−1) ×(n−2) ×... ×(n−r+1)​
+<img width="257" alt="image" src="https://user-images.githubusercontent.com/87634136/178107640-d8f0c2a6-9a1c-44ff-ba5c-ec35ddbbc172.png">
+
 >> 조합
 
-$:\ 서로\ 다른\ n개에서\ r개를\ 뽑는\ 조합의\ 수는$: 서로 다른 n개에서 r개를 뽑는 조합의 수는​
-$\combi{\ }_n\combi{C}_r\ =\ \frac{\combi{\ }_n\combi{P}_r}{r!}\ =\ \frac{n\times \left(n-1\right)\times \left(n-2\right)\times ...\times \left(n-r+1\right)}{r\times \left(r-1\right)\times \left(r-2\right)\times ...\times 1}$ n​Cr​ = 
- n​Pr​
-r!​ = 
-n×(n−1)×(n−2)×...×(n−r+1)
-r×(r−1)×(r−2)×...×1​​
+<img width="253" alt="image" src="https://user-images.githubusercontent.com/87634136/178107649-0ca50502-79d1-42f0-a358-303e32d34e4d.png">
+
 >> 2항계수
 
-$\combi{\left(a+b\right)}^n을\ 전개한\ 식에서\ \combi{a}^{n-k}\combi{b}^k의\ 계수는\ \combi{\ }_n\combi{C}_k$(a+b)n을 전개한 식에서 an−kbk의 계수는  n​Ck​​
+<img width="232" alt="image" src="https://user-images.githubusercontent.com/87634136/178107653-372dcc7d-7f82-41d0-b995-732db6220cec.png">
+
 >> 2항정리
 
-$\combi{\left(a+b\right)}^n\ =\ \combi{\ }_n\combi{C}_0\combi{a}^n+\combi{\ }_n\combi{C}_1\combi{a}^{n-1}b+\combi{\ }_n\combi{C}_2\combi{a}^{n-2}\combi{b}^2+...+\combi{\ }_n\combi{C}_k\combi{a}^{n-k}\combi{b}^k+...+\combi{\ }_n\combi{C}_n\combi{b}^n$(a+b)n =  n​C0​an+ n​C1​an−1b+ n​C2​an−2b2+...+ n​Ck​an−kbk+...+ n​Cn​bn​
-​
+<img width="367" alt="image" src="https://user-images.githubusercontent.com/87634136/178107661-2ce5c5ca-2446-42f1-a73d-7fee028e492f.png">
+
+
 
 09 미분계수 공식 유도
 
-​
-
 >> 미분계수 공식 
 
-$f\left(x\right)=\combi{x}^n일때$f(x)=xn일때​
-$f"\left(a\right)=n\combi{a}^{n-1}$f′(a)=nan−1​
+<img width="93" alt="image" src="https://user-images.githubusercontent.com/87634136/178107670-a7f8300b-5cc0-47ab-9b7a-f5ed150faebe.png">
+
 >> 상수함수의 미분계수
 
-$f\left(x\right)=c\ \ \ \ \ \ \ \ \ ->\ \ \ \ \ \ \ f"\left(a\right)=0$f(x)=c         −>       f′(a)=0​
-​
+<img width="179" alt="image" src="https://user-images.githubusercontent.com/87634136/178107680-5e135c69-0b01-4202-b24e-3821592e905c.png">
+
+
 
 10 도함수와 증감표
 
-​
-
 >> 도함수의 정의
 
-$함수\ f\left(x\right)에\ 대해$함수 f(x)에 대해​
-$f"\left(x\right)=\lim _{\combi{h}\to \combi{0}}^{ }\combi{\frac{f\left(x+h\right)-f\left(x\right)}{h}}$f′(x)=lim
-h→0
-f(x+h)−f(x)
-h​​
-$로\ 구해지는\ 함수f"\left(x\right)를\ f\left(x\right)의\ 도함수라\ 한다.$로 구해지는 함수f′(x)를 f(x)의 도함수라 한다.​
+<img width="229" alt="image" src="https://user-images.githubusercontent.com/87634136/178107690-82ceb31d-6fa8-4430-8ffd-90eab471b818.png">
+
 >> 도함수 공식
 
-$f\left(x\right)=\combi{x}^n\ \ \ \ ->\ \ \ \ f"\left(x\right)\ =\ n\combi{x}^{n-1}$f(x)=xn    −>    f′(x) = nxn−1​
-$함수\ f\left(x\right)를\ 미분한다\ =\ 도함수\ f"\left(x\right)를\ 구한다$함수 f(x)를 미분한다 = 도함수 f′(x)를 구한다​
-$증감표야말로\ \ 미분의\ 목적\ \ 그\ 자체이다$증감표야말로  미분의 목적  그 자체이다​
-​
+<img width="234" alt="image" src="https://user-images.githubusercontent.com/87634136/178107699-900c03c6-7df5-479d-a81f-1bf5b868ab82.png">
+
+
 
 11 합성함수의 미분 (겉미분과 속미분)
 
-​
-
 >> 합성함수 (1)
 
-$두\ 함수\ f와\ g가\ 있을\ 때$두 함수 f와 g가 있을 때​
-$h\left(x\right)=g\left(f\left(x\right)\right)$h(x)=g(f(x))​
-$와\ 같이\ g\left(x\right)의\ x에\ f\left(x\right)를\ 대입해서\ 만들\ 수\ 있는\ 함수\ h\left(x\right)를\ f와\ g의\ 합성함수라\ 한다.$와 같이 g(x)의 x에 f(x)를 대입해서 만들 수 있는 함수 h(x)를 f와 g의 합성함수라 한다.​
-​
+<img width="406" alt="image" src="https://user-images.githubusercontent.com/87634136/178107713-af150d04-3a74-4920-8317-19bc699fa941.png">
 
 >> 합성함수 (2)
 
-$y=f\left(x\right)일\ 때$y=f(x)일 때​
-$\lim _{\combi{h}\to \combi{0}}^{ }\combi{\frac{f\left(x+h\right)-f\left(x\right)}{h}=f"\left(x\right)=y"=\lim _{\combi{\triangle }x\to \combi{0}}^{ }\combi{\frac{\triangle y}{\triangle x}=\frac{dy}{dx}}}$lim
-h→0
-f(x+h)−f(x)
-h​=f′(x)=y′=lim
-△x→0
-△y
-△x​=
-dy
-dx​​
-​
+<img width="254" alt="image" src="https://user-images.githubusercontent.com/87634136/178107726-89196842-08d0-4031-882f-c36f149fe6c2.png">
 
 >> 합성함수의 미분
 
-$\left\{g\left(f\left(x\right)\right)\right\}"=g"\left(f\left(x\right)\right)\cdot f"\left(x\right)${g(f(x))}′=g′(f(x))·f′(x)​
-​
+<img width="155" alt="image" src="https://user-images.githubusercontent.com/87634136/178107732-dca5207a-79a7-4aa4-a65a-365ce1c3ac48.png">
+
+
 
 12 곱과 몫의 미분
 
@@ -199,73 +144,51 @@ $\left\{g\left(f\left(x\right)\right)\right\}"=g"\left(f\left(x\right)\right)\cd
 
 >> 곱의 미분 공식
 
-$\left\{f\left(x\right)g\left(x\right)\right\}"=f"\left(x\right)g\left(x\right)+f\left(x\right)g"\left(x\right)${f(x)g(x)}′=f′(x)g(x)+f(x)g′(x)​
+<img width="180" alt="image" src="https://user-images.githubusercontent.com/87634136/178107740-cc73de83-1fea-4214-8a2f-e375ea29b90d.png">
+
 >> 몫의 미분 공식
 
-$\left\{\frac{f\left(x\right)}{g\left(x\right)}\right\}"=\frac{f"\left(x\right)g\left(x\right)-f\left(x\right)g"\left(x\right)}{\combi{\left\{g\left(x\right)\right\}}^2}${
-f(x)
-g(x)​}′=
-f′(x)g(x)−f(x)g′(x)
-{g(x)}2​​
+<img width="168" alt="image" src="https://user-images.githubusercontent.com/87634136/178107748-b8657788-bff6-4949-82d4-51f939c986e6.png">
+
 >> 도함수 공식의 확장
 
-$\left(\combi{x}^{-n}\right)"=-n\combi{x}^{-n-1}$(x−n)′=−nx−n−1​
+<img width="110" alt="image" src="https://user-images.githubusercontent.com/87634136/178107754-38a4f4ba-912d-4cb7-8c06-695b430bc083.png">
+
+
+
 13 삼각비와 삼각함수
 
 >> 라디안(호도법)
 
-$a를\ 도수법\left(360도법\right)\ 각도라고\ 하면$a를 도수법(360도법) 각도라고 하면​
-$\theta =\frac{a\pi }{180}\left(라디안\right)$θ=
-aπ
-180​(라디안)​
+<img width="193" alt="image" src="https://user-images.githubusercontent.com/87634136/178107758-91444170-36a5-46ec-8385-e197841fb587.png">
+
 >> 삼각함수의 정의
 
-$원점을\ 중심으로\ 하고\ 반지름이\ 1인\ 원\left(단위원이라\ 합니다\right)의\ 원주\ 위를\ x축의\ 양의$원점을 중심으로 하고 반지름이 1인 원(단위원이라 합니다)의 원주 위를 x축의 양의​
-$방향에서\ 반시계방향으로\ 각도\ \theta 만큼\ 회전했을\ 때\ 점의\ 좌표를\ \left(\cos \ \theta ,\ \sin \theta \right)라\ 한다.$방향에서 반시계방향으로 각도 θ만큼 회전했을 때 점의 좌표를 (cos θ, sinθ)라 한다.​
-$또한,\ \tan \theta =\frac{\sin \theta }{\cos \ \theta }로\ 정의한다.$또한, tanθ=
-sinθ
-cos θ​로 정의한다.​
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/87634136/178107804-025cff38-d863-4d3a-962b-154059c223b4.png">
+
 >> 삼각함수의 상호 관계
 
-$\tan \theta =\frac{\sin \theta }{\cos \theta }$tanθ=
-sinθ
-cosθ​​
-$\cos ^2\theta +\sin ^2\theta =1$cos2θ+sin2θ=1​
+<img width="122" alt="image" src="https://user-images.githubusercontent.com/87634136/178107814-6e55542b-86ac-4420-ba54-893ea29f4917.png">
+
 >> 음각 & 여각 공식
 
-$\cos \left(-\theta \right)=\cos \theta ,\ \ \sin \left(-\theta \right)=-\sin \theta $cos(−θ)=cosθ,  sin(−θ)=−sinθ​
-$\cos \left(\frac{\pi }{2}-\theta \right)=\sin \theta ,\ \ \sin \left(\frac{\pi }{2}-\theta \right)=\cos \theta $cos(
-π
-2​−θ)=sinθ,  sin(
-π
-2​−θ)=cosθ​
-​
+<img width="204" alt="image" src="https://user-images.githubusercontent.com/87634136/178107823-078c7d6e-fee2-4f0c-a3f9-d7bf6ef4ce11.png">
+
+
 
 14 삼각함수의 미분
 
-​
-
 >> 삼각함수의 기본 극한
 
-$\lim _{\combi{\theta }\to \combi{0}}^{ }\combi{\frac{\sin \theta }{\theta }=1}$lim
-θ→0
-sinθ
-θ​=1​
-$\lim _{\combi{\theta }\to \combi{0}}^{ }\combi{\frac{1-\cos \combi{\theta }}{\combi{\combi{\theta }}^2}=\frac{1}{2}}$lim
-θ→0
-1−cosθ
-θ2​=
-1
-2​​
+<img width="120" alt="image" src="https://user-images.githubusercontent.com/87634136/178107833-436713fc-2294-4b50-b5a1-4cc7d705dbe0.png">
+
 >> sinx와 cosx의 도함수
 
-$\left(\sin x\right)"=\cos x$(sinx)′=cosx​
-$\left(\cos x\right)"=-\sin x$(cosx)′=−sinx​
-​
+<img width="92" alt="image" src="https://user-images.githubusercontent.com/87634136/178107839-3b17f64d-8e84-4dbd-8b33-be5ed7f78f74.png">
+
+
 
 15 거듭제곱과 지수함수
-
-​
 
 >> y가 x의 함수일 때
 
@@ -273,102 +196,65 @@ $\left(\cos x\right)"=-\sin x$(cosx)′=−sinx​
 
 2. x값을 자유롭게 선택할 수 있다.
 
-​
-
 >> 거듭제곱근의 정의
 
-$n이\ 짝수일\ 때$n이 짝수일 때​
-$\combi{x}^n=a\ \ \ \ \ \ <==>\ \ \ \ \ x=\pm \sqrt[n]{a}\ \ \ \left(a\ge 0\right)$xn=a      <==>     x=±n√a   (a≥0)​
-$n이\ 홀수일\ 때$n이 홀수일 때​
-$\combi{x}^n=a\ \ \ \ \ \ <==>\ \ \ \ \ x=\sqrt[n]{a}$xn=a      <==>     x=n√a​
+<img width="204" alt="image" src="https://user-images.githubusercontent.com/87634136/178107859-9270bfb2-bcbc-4b33-8725-5aacfb2d459f.png">
+
 >> 지수가 유리수(분수)일 때의 거듭제곱근
 
-$\combi{a}^{\frac{1}{n}}=\sqrt[n]{a}$a
-1
-n​=n√a​
+<img width="74" alt="image" src="https://user-images.githubusercontent.com/87634136/178107864-8f7150b8-bdb8-405e-a9b7-d3e1f5679e3d.png">
+
 >> lim
 
-$\ \lim _{\combi{x}\to \combi{r}}^{ }\combi{\combi{a}^x}\ =\ p일\ 때$ lim
-x→r
-ax = p일 때​
-$\combi{a}^r=p\ \ \ \ \ \left(r은\ 무리수\right)$ar=p     (r은 무리수)​
+<img width="122" alt="image" src="https://user-images.githubusercontent.com/87634136/178107870-ef0046bf-d9a8-4d7c-b5bb-718ecca1325a.png">
+
 >> 지수함수
 
-$y=\combi{a}^x$y=ax​
-$\left(단,\ a>0이면서\ a\ne 1\right)$(단, a>0이면서 a≠1)​
-​
+<img width="125" alt="image" src="https://user-images.githubusercontent.com/87634136/178107877-e3935a4b-4620-4353-b83d-659e68223b2c.png">
+
+
 
 16 로그와 로그함수
 
-​
-
 >> 로그의 정의
 
-$\combi{a}^x=p를\ 만족하는\ x값을$ax=p를 만족하는 x값을​
-$x=\log _a\combi{p}$x=loga​p​
-$로\ 표시한다.\ 이때\ a를\ 밑\ p를\ 진수라\ 한다.\ $로 표시한다. 이때 a를 밑 p를 진수라 한다. ​
-$\left(단,\ a\ >0이고\ a\ne 1이며\ y>0였던\ 이유와\ 같다.\right)$(단, a >0이고 a≠1이며 y>0였던 이유와 같다.)​
+<img width="242" alt="image" src="https://user-images.githubusercontent.com/87634136/178107885-90f9afdf-9393-4012-9e9a-340a6c6026ae.png">
+
 >> 로그의 성질
 
-$\left(1\right)\ \log _a\combi{a}=1$(1) loga​a=1​
-$\left(2\right)\log _a\combi{1}=0$(2)loga​1=0​
+<img width="90" alt="image" src="https://user-images.githubusercontent.com/87634136/178107890-591551c1-9366-443a-9d2f-9e79db0f700d.png">
+
 >> 로그 법칙
 
-$\left(1\right)\ \log _a\combi{MN}=\log _a\combi{M}+\log _a\combi{N}$(1) loga​MN=loga​M+loga​N​
-$\left(2\right)\log _a\combi{\frac{M}{N}}=\log _a\combi{M}-\log _a\combi{N}$(2)loga​
-M
-N​=loga​M−loga​N​
-$\left(3\right)\log _a\combi{\combi{M}^r}=r\log _a\combi{M}$(3)loga​Mr=rloga​M​
+<img width="155" alt="image" src="https://user-images.githubusercontent.com/87634136/178107896-b01f695a-34f0-4552-b883-e06553c93d2b.png">
+
 >> 밑 변환 공식
 
-$\log _a\combi{b}=\frac{\log _c\combi{b}}{\log _c\combi{a}}$loga​b=
-logc​b
-logc​a​​
-$\left(단,\ a,\ b,\ c는\ 양의\ 실수이고\ a\ne 1,\ c\ne 1\right)$(단, a, b, c는 양의 실수이고 a≠1, c≠1)​
-​
+<img width="214" alt="image" src="https://user-images.githubusercontent.com/87634136/178107898-6df1728c-122a-4bb2-8169-17cef76dd307.png">
+
+
 
 17 로그함수와 지수함수를 미분하자
 
-​
-
 >> 자연로그의 밑(네이피어 수)의 정의1
 
-$다음\ 극한을\ 만족하는\ 상수\ \e 를\ 네이피어\ 수\left(자연로그의\ 밑\right)라\ 합니다.$다음 극한을 만족하는 상수 ℮를 네이피어 수(자연로그의 밑)라 합니다.​
-$\lim _{\combi{h}\to \combi{0}}^{ }\combi{\frac{\combi{\varrho }^h-1}{h}=1}$lim
-h→0
-ϱh−1
-h​=1​
+<img width="331" alt="image" src="https://user-images.githubusercontent.com/87634136/178107910-5af0bc3f-1247-45d8-b232-f7bc89caad03.png">
+
 >> 자연로그의 밑(네이피어 수)의 정의2
 
-$\lim _{\combi{h}\to \combi{0}}^{ }\combi{\combi{\left(1+h\right)}^{\frac{1}{h}}=\varrho }$lim
-h→0
-(1+h)
-1
-h​=ϱ​
-$\lim _{\combi{x}\to \combi{\infty }}^{ }\combi{\combi{\left(1+\frac{1}{x}\right)}^x=\varrho }$lim
-x→∞
-(1+
-1
-x​)x=ϱ​
+<img width="110" alt="image" src="https://user-images.githubusercontent.com/87634136/178107920-1b088986-5e8b-4a49-b09e-3ba012ad34d4.png">
+
 >> 로그함수의 미분
 
-$\left(\log x\right)"=\frac{1}{x}$(logx)′=
-1
-x​​
-$\left(\log _a\combi{x}\right)"=\frac{1}{\log \combi{a}}\cdot \frac{1}{x}$(loga​x)′=
-1
-loga​·
-1
-x​​
+<img width="119" alt="image" src="https://user-images.githubusercontent.com/87634136/178107926-c14ad2a0-865f-48c3-b29b-c735f5d76bc6.png">
+
 >> 지수함수의 미분
 
-$\left(\combi{a}^x\right)"=\combi{a}^x\log \combi{a}$(ax)′=axloga​
-$\left(\combi{\varrho }^x\right)"=\combi{\varrho }^x$(ϱx)′=ϱx​
-​
+<img width="86" alt="image" src="https://user-images.githubusercontent.com/87634136/178107931-af89f395-c1c9-4b3b-a474-93f6c313a668.png">
+
+
 
 18 함수의 최댓값과 최솟값
-
-​
 
 >> 최댓값과 최솟값을 구하는 순서
 
@@ -380,25 +266,18 @@ $\left(\combi{\varrho }^x\right)"=\combi{\varrho }^x$(ϱx)′=ϱx​
 
 (4)증감표를 만든다(그래프를 그린다).
 
-​
 
-​
 
 19 직선으로 근사
 
-​
-
 >> 1차 근사식
 
-$x값이\ a에\ 가까울\ 때\ 1차\ 근사식은\ 다음과\ 같다.$x값이 a에 가까울 때 1차 근사식은 다음과 같다.​
-$f\left(x\right)\ \fallingdotseq \ \ f\left(a\right)+f"\left(a\right)\left(x-a\right)$f(x) ≒  f(a)+f′(a)(x−a)​
-$특히\ x값이\ 0에\ 가까울\ 때는\ 다음과\ 같이\ 식이\ 더\ 단순해진다.$특히 x값이 0에 가까울 때는 다음과 같이 식이 더 단순해진다.​
-$f\left(x\right)\ \ \fallingdotseq \ \ f\left(0\right)+f"\left(0\right)x$f(x)  ≒  f(0)+f′(0)x​
+<img width="299" alt="image" src="https://user-images.githubusercontent.com/87634136/178107948-d50784b9-460f-4d29-b830-48ca2ea29c44.png">
+
 >> 아래의 근사
 
-$\combi{\left(1+x\right)}^n의\ 근사$(1+x)n의 근사​
-$x가\ 0에\ 가까운\ 값일\ 때\ \combi{\left(1+x\right)}^n은\ 다음과\ 같이\ 근사한다.$x가 0에 가까운 값일 때 (1+x)n은 다음과 같이 근사한다.​
-$\combi{\left(1+x\right)}^n\ \ \fallingdotseq \ 1+nx$(1+x)n  ≒ 1+nx​
+<img width="274" alt="image" src="https://user-images.githubusercontent.com/87634136/178107960-eb54fd04-5eea-4712-b1c4-ec328ffa27e0.png">
+
 >> 저금리 시대의 예금 계산식
 
-$원리합계\ \fallingdotseq \ 원금\ \times \left(1+예금햇수\times 이율\right)$원리합계 ≒ 원금 ×(1+예금햇수×이율)​
+<img width="199" alt="image" src="https://user-images.githubusercontent.com/87634136/178107970-0a1e321c-135b-4cf4-83b9-19c6d60bca94.png">
